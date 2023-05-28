@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.brand{
+    color: #3CCF4E;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 23px;
+    font-weight: 500;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.brand img{
+    margin: 5px 10px;
+    width: 50px;
+}
+
+nav ul{
+    align-items: center;
+    color: aliceblue;
+    background-color: black;
+    list-style-type: none;
+    display: flex;
+    /* justify-content: flex-start; */
+}
+
+@media screen and (max-width: 600px) {
+    .brand img{
+        width: 30px;
+    }
+    .brand{
+        font-size: 18px;
+    }
+    .songItem{
+        height: 3vh;
+        font-size: 17px;
+    }
+}
+
+.nav{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 1vw;
+    /* width: 100vw; */
+    height: 3vh;
+}
+.nav:hover{
+    font-weight: 800;
+    color: #3CCF4E;
+}

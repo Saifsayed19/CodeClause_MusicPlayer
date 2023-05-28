@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="brand"><img class="logo" src="newlogo.png" alt="Player">Wink Music</li>
+                <li class="nav">Home</li>
+                <li class="nav"> </li>
+                <li class="nav">Artists</li>
+                <li class="nav"> </li>
+                <li class="nav">Genres</li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="container">
+            <div class="songList">
+                <h1 class="head">Top Charts India</h1>
+                 <!-- <img src="bg.png" class="bg" alt="bg" srcset="">  -->
+                 <br>
+                <div class="songItem">
+                    <img class="songImg" alt="1" srcset="">
+                    <span class="songName">Shape Of You</span>
+                    <span class="songlistplay"><span>03:48<i id="0" class="fa-solid songItemPlay fa-play music black"></i></span></span>
+                </div>  
+                <div class="songItem">
+                    <img class="songImg" alt="1" srcset="">
+                    <span class="songName">Despacito</span>
+                    <span class="songlistplay"><span>04:53<i id="1" class="fa-solid songItemPlay fa-play music"></i></span></span>
+                </div>      
+                <div class="songItem">
+                    <img class="songImg" alt="1" srcset="">
+                    <span class="songName">Tum Hi Ho</span>
+                    <span class="songlistplay"><span>04:29<i id="2" class="fa-solid songItemPlay fa-play music"></i></span></span>
+                </div>      
+                <div class="songItem">
+                    <img class="songImg" alt="1" srcset="">
+                    <span class="songName">No Guidance</span>
+                    <span class="songlistplay"><span>04:12<i id="3" class="fa-solid songItemPlay fa-play music"></i></span></span>
+                </div>      
+                <div class="songItem">
+                    <img class="songImg" alt="1" srcset="">
+                    <span class="songName">Coldplay</span>
+                    <span class="songlistplay"><span>04:25<i id="4" class="fa-solid songItemPlay fa-play music"></i></span></span>
+                </div>  
+                <div class="songItem">
+                    <img class="songImg" alt="1" srcset="">
+                    <span class="songName">Apna Bana Le</span>
+                    <span class="songlistplay"><span>03:28<i id="5" class="fa-solid songItemPlay fa-play music"></i></span></span>
+                </div>                 
+            </div>
+        </div>
+    </main>
+   
+    <hr>   
+    <footer class="bottom1">
+        <div class="bottom">
+            <input type="range" id="progressBar" min="0" value="0" max="100">
+            <div class="icons">
+                <i class="fa-solid fa-2x fa-backward music" id="previous"></i>
+                <i class="fa-solid fa-2x fa-play music", id="masterPlay"></i>
+                <i class="fa-solid fa-2x fa-forward music" id="next"></i>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://kit.fontawesome.com/aeaf7e94d0.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
